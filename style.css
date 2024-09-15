@@ -1,0 +1,756 @@
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+
+}
+
+body {
+    font-family: poppins, sans-serif;
+}
+
+/* Hero Section Styles */
+.title-section {
+    text-align: center;
+    color: #820000;
+}
+
+/* Header Styles */
+/* header {
+    background-color: white;
+    color: black;
+    padding: 20px 0;
+} */
+
+.logo {
+    width: 200px;
+    margin-right: 500px;
+    padding-top: 20px;
+    padding-left: 10%;
+}
+
+.hero {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+nav {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    
+}
+
+/* .navbar3{
+    position: absolute;
+    top: 0;
+} */
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    gap: 50px;
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+
+}
+
+.nav-links a:hover {
+    font-weight: bold;
+    color: #820000;
+    padding: 15px;
+}
+
+.section-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    max-width: 500px;
+}
+
+.section-content {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.section-content h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.section-content p {
+    font-size: 20px;
+    margin: 20px 100px 20px 0;
+}
+
+.btn {
+    outline: 2px solid #820000;
+    color: #820000;
+    padding: 7px 15px;
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #820000;
+    padding: 7px 15px;
+    border-radius: 15px;
+    color: #F5F5F5;
+}
+
+/* Features Section Styles */
+.title-siakad {
+    color: #820000;
+}
+
+/* Features Section */
+.features {
+    margin: 0 auto;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    gap: 3em;
+}
+
+.feature {
+    text-align: center;
+    margin: 1rem;
+    flex-basis: calc(33.33% - 2rem);
+}
+
+.feature h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.content-section2 {
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    padding-top: 20px;
+}
+
+.content-section2:hover {
+    font-weight: bold;
+    color: black;
+}
+
+.content-1 {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-height: 150px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Siakad Link Section */
+.siakad-link {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    gap: 40px;
+    margin-right: 150px;
+}
+
+.section-content3 {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.siakad-link .section-image2 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    max-width: 700px;
+}
+
+/* card */
+.siakad-link1 {
+    padding: 3em;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.siakad-link2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Gaya umum untuk card */
+.card {
+    display: flex;
+    /* Menggunakan flexbox untuk mengatur tata letak */
+    flex-direction: column;
+    /* Menyusun elemen secara vertikal */
+    align-items: center;
+    /* Pusatkan elemen secara horizontal */
+    justify-content: center;
+    /* Pusatkan elemen secara vertikal */
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    gap: 30px;
+    /* border: 1px solid grey; */
+}
+
+/* Gaya saat hover */
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: #444444;
+}
+
+/* Gaya untuk gambar dalam card */
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Gaya untuk teks dalam card */
+.card-text {
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+    /* Pusatkan teks horizontal */
+}
+
+/* Paket SIAKAD Link */
+.offering {
+    overflow-x: auto;
+    /* Memungkinkan scroll horizontal jika diperlukan */
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.table-container {
+    width: 100%;
+    overflow: auto;
+}
+
+.gray-border-table {
+    border-collapse: collapse;
+    width: 90%;
+    max-width: auto;
+    margin: auto;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.gray-border-table th,
+.gray-border-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.gray-border-table th {
+    background-color: #ffffff;
+}
+
+.gray-border-table th {
+    background-color: #f2f2f2;
+}
+
+.paket-btn {
+    width: 100px;
+    padding: 8px;
+    color: white;
+    border: 0px solid black;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, black, rgb(1500, 0, 0))
+}
+
+.paket-btn:hover {
+    background: white;
+    border: 2px solid #820000;
+    color: black;
+    border-radius: 5px;
+
+}
+
+/* Card Klien  */
+.klien {
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 90%;
+    border: 1px solid rgb(212, 210, 210);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgb(250, 250, 250);
+    padding: 30px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.card-content {
+    text-align: center;
+}
+
+.card h2 {
+    margin-bottom: 30px;
+}
+
+.card img {
+    margin-bottom: 20px;
+}
+
+/* footer */
+footer {
+    background-color: rgb(124, 24, 24);
+    margin-top: 50px;
+    color: white;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.layout {
+    flex: 1;
+    padding: 20px;
+    color: white;
+    margin-left: 60px;
+}
+
+.row img {
+    margin-bottom: 20px;
+}
+
+.row p {
+    color: white;
+
+}
+
+.row a {
+    margin-top: 100px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.layout a:hover {
+    font-weight: bold;
+    color: #555;
+}
+
+.layout img:hover {
+    width: 45px;
+    padding: 10px;
+}
+
+
+th:first-child,
+ td:first-child {
+   position: sticky;
+   left: 0;
+   background-color: #f5f5f5;
+   z-index: 1; 
+ }
+
+ .menu-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+
+
+/* responsive */
+/* Tablet */
+
+@media (max-width: 768px) {
+
+    .logo {
+        width: 150px;
+    }
+
+    .nav-links {
+        gap: 30px;
+        font-size: 13px;
+        z-index: 1;
+    }
+
+    .section-image img {
+        display: none;
+    }
+
+    .hero {
+        padding-top: 40px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .section-content h2 {
+        font-size: 25px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .section-content p {
+        margin-left: 25px;
+        margin-right: 25px;
+        text-align: center;
+        font-size: 20px;
+        margin-left: 30px;
+    }
+
+    .btn {
+        font-size: 13px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .title-section {
+        font-size: 25px;
+    }
+
+    .content-section2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .siakad-link1 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .offering {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .klien {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .siakad-link {
+        display: flex;
+        flex-direction: column;
+        margin: 10px
+    }
+
+    .siakad-link .section-image2 img {
+        display: none;
+    }
+
+    .section-image2 img {
+        max-width: 350px;
+    }
+
+    .section2 {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+    }
+
+    .siakad-link2 {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+    }
+
+    .row img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .row p {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .card {
+        width: auto;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .layout {
+        flex: none;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+
+    .section-content2{
+        text-align: center;
+    }
+
+}
+
+/* Smartphone */
+@media (max-width: 416px) {
+    .logo {
+        width: 100px;
+        margin-left: 0;
+
+    }
+
+    .nav-links {
+        gap: 0;
+        font-size: 12px;
+        z-index: 1;
+    }
+
+    .some-element {
+        width: 100%;
+    }
+
+    .hero {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .section-content h2 {
+        font-size: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .section-content p {
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+        font-size: 14px;
+        margin-left: 30px;
+    }
+
+    .btn {
+        font-size: 13px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .title-section {
+        font-size: 20px;
+    }
+
+    .content-section2 {
+        font-size: 14px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .title-siakad span {
+        font-size: 25px;
+        color: #000000;
+        display: inline-block;
+    }
+
+    .title-siakad {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .siakad-link .section-content3 p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+
+
+    .section2 {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+    }
+
+    .siakad-link2 {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+    }
+
+
+    .siakad-link1 {
+        margin-left: 5px;
+        margin-right: 0;
+    }
+
+    .offering {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+
+
+    .siakad-link .section-image2 img {
+        display: none;
+    }
+
+
+    .klien {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .row img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .row p {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .card-content h2 {
+        font-size: 14px;
+    }
+
+    .row p {
+        font-size: 14px;
+    }
+
+    .layout a {
+        font-size: 14px;
+    }
+
+    .layout {
+        padding: 20px;
+        margin-left: 0px;
+    }
+
+}
+
+
+/* mobile */
+@media (max-width: 1000px) {
+
+    .hero {
+        margin-top: 80px;
+    }
+
+    .menu-btn {
+        display: block;
+        padding-top: 34px;
+    }
+
+    .navbar3 {
+        padding: 0;
+    }
+
+    .logo {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        padding-left: 20px;
+
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 65%;
+        height: 60vh;
+        background: white;
+        margin-top: -5000px;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+
+    .nav-links:hover {
+        padding: 10px;
+        font-weight: bold;
+        color: #820000;
+    }
+
+    .mobile-menu {
+        margin-top: 0px;
+        border-bottom-right-radius: 10%;
+    }
+
+    .nav-links li {
+        margin: 30px auto;
+    }
+
+    .menu-btn {
+        width: 20px;
+        padding-top: 20px;
+    }
+}
